@@ -4,7 +4,8 @@
   "description": "Programar el Game of Life.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/bcolomer/202301-w2chwe-barbara-colomer/issues"
   },
-  "homepage": "https://github.com/bcolomer/202301-w2chwe-barbara-colomer#readme"
+  "homepage": "https://github.com/bcolomer/202301-w2chwe-barbara-colomer#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
 }
