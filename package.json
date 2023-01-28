@@ -4,7 +4,7 @@
   "description": "Programar el Game of Life.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
     "prepare": "husky install"
   },
   "repository": {
