@@ -1,0 +1,35 @@
+{
+  "name": "202301-w2chwe-barbara-colomer",
+  "version": "1.0.0",
+  "description": "Programar el Game of Life.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcolomer/202301-w2chwe-barbara-colomer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcolomer/202301-w2chwe-barbara-colomer/issues"
+  },
+  "homepage": "https://github.com/bcolomer/202301-w2chwe-barbara-colomer#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "husky": "^8.0.0",
+    "jest": "^29.4.1"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+}
